@@ -1,0 +1,10 @@
+[project]
+name = "structural-analysis-backend"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.111.0",
+    "uvicorn[standard]>=0.30.0",
+    "numpy>=1.26.0",
+    "pydantic>=2.0.0",
+]
